@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap');
+body{
+    font-family: Libre vanskerbille;
+}
+div.titulo{
+    display: flex;
+    justify-content: center;
+    margin: 10px, 10px, 10px, 10px;
+}
+div.iggy{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;      
+}
+div.container div.row.row-cols-md-3 div.col div.card div.card-body p.card-text{
+    text-align: center;
+}
+
+div.jotaro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div.card{
+    padding: 20px;
+}
+.letra{
+    color: azure;
+    
+}
+.parallax3 {
+    background-image: url('/img/wallpaper.jpg');
+    /* The image used */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(43, 55, 132, .5)), url("/img/wallpaper.jpg");
+    /* Full height */
+    height: 85vh;
+    /*vh = 70 viewport height - vw = viewport width*/
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 100% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: alternate expansion 2.5s infinite;
+}
+
+@keyframes expansion {
+    from {
+        background-position-y: 35%;
+    }
+    to {
+        background-position-y: 45%;
+    }
+}

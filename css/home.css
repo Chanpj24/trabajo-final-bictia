@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap');
+.parallax0 {
+    background-image: url('/img/parallax-home.jpg');
+    /* The image used */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/parallax-home.jpg");
+    /* Full height */
+    height: 85vh;
+    background-attachment: fixed;
+    background-position: 100% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: alternate expansion 2.5s infinite;
+}
+
+body{
+    font-family: Libre Baskerville;
+}
+
+div.menu1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+div.menu2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-top: 4%;
+    padding-right: 20%;
+    padding-left: 20%;
+    color: #fff;
+    font-size: 1.2rem;
+}
+div.menu4 h2{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.container div.row.row-cols-md-3 div.col div.card div.card-body p.card-text{
+    text-align: center;
+}
+
+div.container div.rowtext-center h2{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.menu5 h2{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.col{
+    padding: 20px;
+}
+div.menu5 a{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: #fff;
+}
+.letra{
+    color: rgb(110, 206, 250);
+}
+.comentario{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+footer.text-center.text-white.bg-white div.text-center.p-3{
+    color: black;
+}
+@keyframes expansion {
+    from {
+        background-position-y: 35%;
+    }
+    to {
+        background-position-y: 45%;
+    }
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;0,900;1,200;1,900&family=Permanent+Marker&family=Raleway:ital,wght@0,100;0,500;1,100;1,500&display=swap');
+
+section#partsix{
+    text-align: center;
+    font-family: 'Raleway';
+}
+
+.col{
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.letra{
+    color: azure;
+}
+
+img{
+    border-radius: 20px;
+}
+
+.parallax{
+    background-image: url('https://wallpapercave.com/wp/wp4496440.jpg');
+    /* The image used */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(43, 55, 132, .5)), url("https://wallpapercave.com/wp/wp4496440.jpg");
+    /* Full height */
+    height: 85vh;
+    /*vh = 70 viewport height - vw = viewport width*/
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 100% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: alternate expansion 2.5s infinite;
+}
+
+section.parallax {
+    height: 100%;
+    color: rgb(0, 0, 0);
+}
+@keyframes expansion {
+    from {
+        background-position-y: 35%;
+    }
+    to {
+        background-position-y: 45%;
+    }
+}

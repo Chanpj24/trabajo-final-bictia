@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;0,900;1,200;1,900&family=Permanent+Marker&family=Raleway:ital,wght@0,100;0,500;1,100;1,500&display=swap');
+body{
+    text-align: center;
+    font-family: 'Raleway';
+}
+.letra{
+    color: azure;
+}
+.parallax1{
+    background-image: url('/img/wallpaper-parte1.jpg');
+    /* The image used */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(43, 55, 132, .5)), url("/img/wallpaper-parte1.jpg");
+    /* Full height */
+    height: 85vh;
+    /*vh = 70 viewport height - vw = viewport width*/
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 100% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: alternate expansion 2.5s infinite;
+}
+
+section.parallax {
+    height: 100%;
+    color: rgb(0, 0, 0);
+}
+.text-justify {
+    text-align: justify;
+}
+
+img{
+    border-radius: 20px;
+}
+
+div.col{
+    padding: 20px;
+}

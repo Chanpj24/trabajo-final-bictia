@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap');
+.parallax5 {
+    background-image: url('/img/parallax5.jpeg');
+    /* The image used */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/parallax5.jpeg");
+    /* Full height */
+    height: 85vh;
+    background-attachment: fixed;
+    background-position: 100% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: alternate expansion 2.5s infinite;
+}
+body{
+    font-family: Libre Baskerville;
+}
+
+div.gw{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+div.gw2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-top: 4%;
+    padding-right: 20%;
+    padding-left: 20%;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+div.gw3 h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #fff;
+}
+
+div.gw4 h2{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+div.gw4 a{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: #a57723;
+}
+
+div.container div.rowtext-center h2{
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+div.col{
+    display: flex;
+    text-align: center;
+}
+@keyframes expansion {
+    from {
+        background-position-y: 35%;
+    }
+    to {
+        background-position-y: 45%;
+    }
+}

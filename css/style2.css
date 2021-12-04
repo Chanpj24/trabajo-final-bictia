@@ -1,0 +1,168 @@
+nav a.navbar-brand img {
+    width: 70px;
+}
+
+.parallax {
+    background-image: url('https://wallpapercave.com/wp/wp6485258.jpg');
+    /* The image used */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://wallpapercave.com/wp/wp6485258.jpg");
+    /* Full height */
+    height: 85vh;
+    background-attachment: fixed;
+    background-position: 100% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: alternate expansion 2.5s infinite;
+}
+
+
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Permanent Marker';
+    font-size: 1.8rem;
+    padding: 20px 0px;
+    transition: all .5s;
+}
+
+h1 {
+    animation: alternate expansion-h1 2s infinite;
+}
+
+h1,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #a00ea5;
+}
+
+nav ul li {
+    padding: 20px 10px;
+    transition: all 500ms;
+}
+
+nav ul li:hover {
+    background-color: #ff0000;
+}
+
+section {
+    padding: 40px 60px;
+    text-align: center;
+}
+
+section .row {
+    padding: 15px 30px;
+}
+
+section h2,
+section button {
+    font-family: Raleway;
+    font-weight: 900;
+    font-size: 2.2rem;
+}
+
+
+
+
+section#Battle-Tendency div.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+section#Battle-Tendency h3,
+section#Battle-Tendency h2 {
+    text-align: center;
+}
+
+section#Battle-Tendency div.row p {
+    padding: 10px 40px;
+    width: 10%;
+    text-align: justify;
+}
+
+section#Battle-Tendency img {
+    border-radius: 10%;
+}
+
+
+
+
+section#personajes {
+    height: 65%;
+}
+
+section#personajes {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+section#personajes div.row:nth-child(1) {
+    text-align: center;
+}
+
+section#personajes div.row:nth-child(3) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+section#personajesdiv.row article {
+    width: 45%;
+    height: 200px;
+    margin: 30px 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: all  80ms;
+}
+
+section#personajes div.row article:hover {
+    transform: scale3d(1.2, 1.2, 1.2) rotateY( 360deg) translateZ(10px);
+}
+
+section#personajess div.row article h2 {
+    font-size: 1.5rem;
+}
+div.tarjetas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.letra{
+    color: rgb(255, 255, 255);
+
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
