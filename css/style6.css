@@ -14,25 +14,41 @@ section#partsix{
     color: azure;
 }
 
-img{
-    border-radius: 20px;
-}
-
 .parallax{
     background-image: url('https://wallpapercave.com/wp/wp4496440.jpg');
     /* The image used */
     background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(43, 55, 132, .5)), url("https://wallpapercave.com/wp/wp4496440.jpg");
     /* Full height */
     height: 85vh;
-    /*vh = 70 viewport height - vw = viewport width*/
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: 100% 35%;
     background-repeat: no-repeat;
     background-size: cover;
     animation: alternate expansion 2.5s infinite;
 }
+section#partsix.parallax div.container div img{
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5%;
+}
 
+footer{
+    background-color: aqua;
+}
+section#partsix.parallax div.container div p.letra{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-top: 4%;
+    padding-right: 20%;
+    padding-left: 20%;
+    color: #fff;
+    font-size: 1.2rem;
+}
+section#partsix.parallax a img{
+    padding-bottom: 2%;
+}
 section.parallax {
     height: 100%;
     color: rgb(0, 0, 0);

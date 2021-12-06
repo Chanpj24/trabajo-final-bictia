@@ -81,6 +81,15 @@ footer{
 footer.text-center.text-white.bg-white div.text-center.p-3{
     color: black;
 }
+
+div.container.text-center div h2.text-center.mb-3.letra{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
 @keyframes expansion {
     from {
         background-position-y: 35%;

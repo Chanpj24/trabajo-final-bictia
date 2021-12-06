@@ -14,42 +14,48 @@ div.iggy{
     flex-wrap: wrap;      
 }
 div.container div.row.row-cols-md-3 div.col div.card div.card-body p.card-text{
-    text-align: center;
-}
-
-div.jotaro{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 20px;
 }
 
-div.card{
-    padding: 20px;
+
+
+
+div.gw4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: azure;
 }
 .letra{
     color: azure;
     
 }
+
+img{
+    border-radius: 20px;
+}
 .parallax3 {
     background-image: url('/img/wallpaper.jpg');
-    /* The image used */
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(43, 55, 132, .5)), url("/img/wallpaper.jpg");
-    /* Full height */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/wallpaper.jpg");
     height: 85vh;
-    /*vh = 70 viewport height - vw = viewport width*/
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: 100% 35%;
     background-repeat: no-repeat;
     background-size: cover;
     animation: alternate expansion 2.5s infinite;
 }
+    @keyframes expansion {
+        from {
+            background-position-y: 35%;
+        }
+        to {
+            background-position-y: 45%;
+        }
+    }
 
-@keyframes expansion {
-    from {
-        background-position-y: 35%;
-    }
-    to {
-        background-position-y: 45%;
-    }
-}

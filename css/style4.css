@@ -8,28 +8,46 @@ section#partfour{
     color: azure;
 }
 .col{
-    border-radius: 20px;
     text-align: center;
     padding: 20px;
 }
 
-img{
-    border-radius: 20px;
+section#partfour.parallax a img{
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 2%;
 }
 
+section#partfour.parallax div.container div img{
+    flex-direction: row;
+    justify-content: center;
+    padding: 3%;
+}
+section#partfour.parallax div.container div p.letra{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 20%;
+    padding-left: 20%;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+section#partfour.parallax div.container div.rowtext-center h2{
+    color: #fff;
+}
 .parallax{
-    background-image: url('https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/08/diamond-is-unbreakable.jpg');
-    /* The image used */
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(43, 55, 132, .5)), url("https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/08/diamond-is-unbreakable.jpg");
-    /* Full height */
+    background-image: url('https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/08/diamond-is-unbreakable.jpg/img/wallpaper.jpg');
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/08/diamond-is-unbreakable.jpg");
     height: 85vh;
-    /*vh = 70 viewport height - vw = viewport width*/
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: 100% 35%;
     background-repeat: no-repeat;
     background-size: cover;
-    animation: alternate expansion 2.5s infinite;
+    animation: alternate expansion 2.5s infinite;    
 }
 
 section.parallax {
@@ -44,5 +62,3 @@ section.parallax {
         background-position-y: 45%;
     }
 }
-
-

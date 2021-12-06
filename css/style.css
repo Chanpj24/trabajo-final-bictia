@@ -3,24 +3,33 @@ body{
     text-align: center;
     font-family: 'Raleway';
 }
+
 .letra{
     color: azure;
+}
+body.parallax1 div.container div.rowtext-center h2{
+    color: #fff;
 }
 .parallax1{
     background-image: url('/img/wallpaper-parte1.jpg');
     /* The image used */
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(43, 55, 132, .5)), url("/img/wallpaper-parte1.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/wallpaper-parte1.jpg");
     /* Full height */
     height: 85vh;
-    /*vh = 70 viewport height - vw = viewport width*/
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: 100% 35%;
     background-repeat: no-repeat;
     background-size: cover;
     animation: alternate expansion 2.5s infinite;
 }
-
+body.parallax1 div.gw4 h2{
+    color: #fff;
+}
+body.parallax1 div.gw4 a img{
+    flex-direction: row;
+    justify-content: center;
+    padding: 3%;
+}
 section.parallax {
     height: 100%;
     color: rgb(0, 0, 0);
